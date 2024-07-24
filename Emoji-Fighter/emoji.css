@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    padding: 0;
+}
+
+#emoji-container{
+    width: 500px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 3% 3%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(233, 138, 29);
+    margin: 0;
+    line-height: 55px;
+    transform: rotate(-9deg);
+    text-shadow: 0px 3px 0px black;
+}
+
+button{
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    background-color: rgb(233, 138, 29);
+    border: none;
+    font-size: 25px;
+    padding: 2% 2%;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(214, 127, 27);
+    transition: background-color 1s;
+}
+
+#stage {
+    width: 100%;
+    padding: 80px 0;
+    font-size: 90px;
+    color: rgb(233, 138, 29);
+}
