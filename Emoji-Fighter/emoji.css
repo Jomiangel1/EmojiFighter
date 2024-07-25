@@ -11,7 +11,8 @@ body{
 }
 
 #emoji-container{
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
     background-color: rgb(231, 231, 231);
     text-align: center;
     padding: 3% 3%;
@@ -45,7 +46,22 @@ button:hover{
 
 #stage {
     width: 100%;
-    padding: 80px 0;
+    padding: 10% 0;
     font-size: 90px;
     color: rgb(233, 138, 29);
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    #stage{
+        font-size: 60px
+    }
+
+    button{
+        font-size: 20px;
+    }
 }
